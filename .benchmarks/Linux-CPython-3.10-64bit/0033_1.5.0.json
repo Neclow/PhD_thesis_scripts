@@ -1,0 +1,2063 @@
+{
+    "machine_info": {
+        "node": "didelx01",
+        "processor": "x86_64",
+        "machine": "x86_64",
+        "python_compiler": "GCC 9.4.0",
+        "python_implementation": "CPython",
+        "python_implementation_version": "3.10.0",
+        "python_version": "3.10.0",
+        "python_build": [
+            "default",
+            "Nov 20 2021 02:24:10"
+        ],
+        "release": "5.15.0-142-generic",
+        "system": "Linux",
+        "cpu": {
+            "python_version": "3.10.0.final.0 (64 bit)",
+            "cpuinfo_version": [
+                9,
+                0,
+                0
+            ],
+            "cpuinfo_version_string": "9.0.0",
+            "arch": "X86_64",
+            "bits": 64,
+            "count": 128,
+            "arch_string_raw": "x86_64",
+            "vendor_id_raw": "AuthenticAMD",
+            "brand_raw": "AMD Ryzen Threadripper PRO 5995WX 64-Cores",
+            "hz_advertised_friendly": "1.8000 GHz",
+            "hz_actual_friendly": "1.8000 GHz",
+            "hz_advertised": [
+                1800000000,
+                0
+            ],
+            "hz_actual": [
+                1800000000,
+                0
+            ],
+            "stepping": 2,
+            "model": 8,
+            "family": 25,
+            "flags": [
+                "3dnowext",
+                "3dnowprefetch",
+                "abm",
+                "adx",
+                "aes",
+                "amd_ppin",
+                "aperfmperf",
+                "apic",
+                "arat",
+                "avic",
+                "avx",
+                "avx2",
+                "bmi1",
+                "bmi2",
+                "bpext",
+                "cat_l3",
+                "cdp_l3",
+                "clflush",
+                "clflushopt",
+                "clwb",
+                "clzero",
+                "cmov",
+                "cmp_legacy",
+                "constant_tsc",
+                "cpb",
+                "cpuid",
+                "cqm",
+                "cqm_llc",
+                "cqm_mbm_local",
+                "cqm_mbm_total",
+                "cqm_occup_llc",
+                "cr8_legacy",
+                "cx16",
+                "cx8",
+                "dbx",
+                "de",
+                "decodeassists",
+                "erms",
+                "extapic",
+                "extd_apicid",
+                "f16c",
+                "flushbyasid",
+                "fma",
+                "fpu",
+                "fsgsbase",
+                "fsrm",
+                "fxsr",
+                "fxsr_opt",
+                "ht",
+                "hw_pstate",
+                "ibpb",
+                "ibrs",
+                "ibs",
+                "invpcid",
+                "invpcid_single",
+                "irperf",
+                "lahf_lm",
+                "lbrv",
+                "lm",
+                "mba",
+                "mca",
+                "mce",
+                "misalignsse",
+                "mmx",
+                "mmxext",
+                "monitor",
+                "movbe",
+                "msr",
+                "mtrr",
+                "mwaitx",
+                "nonstop_tsc",
+                "nopl",
+                "npt",
+                "nrip_save",
+                "nx",
+                "ospke",
+                "osvw",
+                "osxsave",
+                "overflow_recov",
+                "pae",
+                "pat",
+                "pausefilter",
+                "pci_l2i",
+                "pcid",
+                "pclmulqdq",
+                "pdpe1gb",
+                "perfctr_core",
+                "perfctr_llc",
+                "perfctr_nb",
+                "pfthreshold",
+                "pge",
+                "pku",
+                "pni",
+                "popcnt",
+                "pqe",
+                "pqm",
+                "pse",
+                "pse36",
+                "rapl",
+                "rdpid",
+                "rdpru",
+                "rdrand",
+                "rdrnd",
+                "rdseed",
+                "rdt_a",
+                "rdtscp",
+                "rep_good",
+                "sep",
+                "sha",
+                "sha_ni",
+                "skinit",
+                "smap",
+                "smca",
+                "smep",
+                "ssbd",
+                "sse",
+                "sse2",
+                "sse4_1",
+                "sse4_2",
+                "sse4a",
+                "ssse3",
+                "stibp",
+                "succor",
+                "svm",
+                "svm_lock",
+                "syscall",
+                "tce",
+                "topoext",
+                "tsc",
+                "tsc_scale",
+                "umip",
+                "v_spec_ctrl",
+                "v_vmsave_vmload",
+                "vaes",
+                "vgif",
+                "vmcb_clean",
+                "vme",
+                "vmmcall",
+                "vpclmulqdq",
+                "wbnoinvd",
+                "wdt",
+                "x2apic",
+                "xgetbv1",
+                "xsave",
+                "xsavec",
+                "xsaveerptr",
+                "xsaveopt",
+                "xsaves"
+            ],
+            "l3_cache_size": 524288,
+            "l2_cache_size": 33554432,
+            "l1_data_cache_size": 2097152,
+            "l1_instruction_cache_size": 2097152,
+            "l2_cache_line_size": 512,
+            "l2_cache_associativity": 6
+        }
+    },
+    "commit_info": {
+        "id": "8a4cefb9c755a1d107e91c5586401749451a235e",
+        "time": "2025-10-08T15:49:51+02:00",
+        "author_time": "2025-10-08T15:49:51+02:00",
+        "dirty": false,
+        "project": "phylo2vec",
+        "branch": "(detached head)"
+    },
+    "benchmarks": [
+        {
+            "group": null,
+            "name": "test_vector_to_newick_ordered[10000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_to_newick_ordered[10000]",
+            "params": {
+                "sample_size": 10000
+            },
+            "param": "10000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.0015667527914047241,
+                "max": 0.0017732195556163788,
+                "mean": 0.0015891755261691286,
+                "stddev": 2.680834174773314e-05,
+                "rounds": 640,
+                "median": 0.001583877019584179,
+                "iqr": 7.800757884979248e-06,
+                "q1": 0.0015802588313817978,
+                "q3": 0.001588059589266777,
+                "iqr_outliers": 41,
+                "stddev_outliers": 32,
+                "outliers": "32;41",
+                "ld15iqr": 0.0015694554895162582,
+                "hd15iqr": 0.0015998929738998413,
+                "ops": 629.2571107048212,
+                "total": 1.0170723367482424,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_to_newick_ordered[20000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_to_newick_ordered[20000]",
+            "params": {
+                "sample_size": 20000
+            },
+            "param": "20000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.0033636465668678284,
+                "max": 0.0034090597182512283,
+                "mean": 0.003386450687660867,
+                "stddev": 8.876050044615076e-06,
+                "rounds": 298,
+                "median": 0.003386489115655422,
+                "iqr": 1.191161572933197e-05,
+                "q1": 0.0033806990832090378,
+                "q3": 0.0033926106989383698,
+                "iqr_outliers": 0,
+                "stddev_outliers": 98,
+                "outliers": "98;0",
+                "ld15iqr": 0.0033636465668678284,
+                "hd15iqr": 0.0034090597182512283,
+                "ops": 295.2944224593841,
+                "total": 1.0091623049229383,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_to_newick_ordered[30000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_to_newick_ordered[30000]",
+            "params": {
+                "sample_size": 30000
+            },
+            "param": "30000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.005118304863572121,
+                "max": 0.0055394526571035385,
+                "mean": 0.005152453200390496,
+                "stddev": 3.960363824645124e-05,
+                "rounds": 197,
+                "median": 0.005146415904164314,
+                "iqr": 1.6383826732635498e-05,
+                "q1": 0.005138575565069914,
+                "q3": 0.005154959391802549,
+                "iqr_outliers": 6,
+                "stddev_outliers": 5,
+                "outliers": "5;6",
+                "ld15iqr": 0.005118304863572121,
+                "hd15iqr": 0.005180230364203453,
+                "ops": 194.0823062544676,
+                "total": 1.0150332804769278,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_to_newick_ordered[40000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_to_newick_ordered[40000]",
+            "params": {
+                "sample_size": 40000
+            },
+            "param": "40000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.007193459197878838,
+                "max": 0.008070608600974083,
+                "mean": 0.007596207872546952,
+                "stddev": 0.00013037255085362266,
+                "rounds": 145,
+                "median": 0.007563501596450806,
+                "iqr": 7.617752999067307e-05,
+                "q1": 0.007525404915213585,
+                "q3": 0.007601582445204258,
+                "iqr_outliers": 18,
+                "stddev_outliers": 19,
+                "outliers": "19;18",
+                "ld15iqr": 0.007459435611963272,
+                "hd15iqr": 0.007730741053819656,
+                "ops": 131.64463331948122,
+                "total": 1.101450141519308,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_to_newick_ordered[50000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_to_newick_ordered[50000]",
+            "params": {
+                "sample_size": 50000
+            },
+            "param": "50000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.009304855018854141,
+                "max": 0.010052043944597244,
+                "mean": 0.009565819968917855,
+                "stddev": 0.00015581261173832755,
+                "rounds": 108,
+                "median": 0.00955448392778635,
+                "iqr": 0.0001421002671122551,
+                "q1": 0.009486310184001923,
+                "q3": 0.009628410451114178,
+                "iqr_outliers": 7,
+                "stddev_outliers": 30,
+                "outliers": "30;7",
+                "ld15iqr": 0.009304855018854141,
+                "hd15iqr": 0.009862083941698074,
+                "ops": 104.53886893641028,
+                "total": 1.0331085566431284,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_to_newick_ordered[60000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_to_newick_ordered[60000]",
+            "params": {
+                "sample_size": 60000
+            },
+            "param": "60000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.011507974937558174,
+                "max": 0.012691883370280266,
+                "mean": 0.011819842051756516,
+                "stddev": 0.0002330196753080169,
+                "rounds": 89,
+                "median": 0.011827804148197174,
+                "iqr": 0.0002752905711531639,
+                "q1": 0.011656031478196383,
+                "q3": 0.011931322049349546,
+                "iqr_outliers": 5,
+                "stddev_outliers": 22,
+                "outliers": "22;5",
+                "ld15iqr": 0.011507974937558174,
+                "hd15iqr": 0.01235169731080532,
+                "ops": 84.60349940559422,
+                "total": 1.05196594260633,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_to_newick_ordered[70000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_to_newick_ordered[70000]",
+            "params": {
+                "sample_size": 70000
+            },
+            "param": "70000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.014106137678027153,
+                "max": 0.014804655686020851,
+                "mean": 0.014401591874452101,
+                "stddev": 0.00015745515424685441,
+                "rounds": 72,
+                "median": 0.014373769983649254,
+                "iqr": 0.00023881439119577408,
+                "q1": 0.014276759698987007,
+                "q3": 0.014515574090182781,
+                "iqr_outliers": 0,
+                "stddev_outliers": 25,
+                "outliers": "25;0",
+                "ld15iqr": 0.014106137678027153,
+                "hd15iqr": 0.014804655686020851,
+                "ops": 69.43676842932645,
+                "total": 1.0369146149605513,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_to_newick_ordered[80000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_to_newick_ordered[80000]",
+            "params": {
+                "sample_size": 80000
+            },
+            "param": "80000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.015696879476308823,
+                "max": 0.01665804162621498,
+                "mean": 0.01595420148805715,
+                "stddev": 0.00020700809974826676,
+                "rounds": 64,
+                "median": 0.015865479595959187,
+                "iqr": 0.00021068286150693893,
+                "q1": 0.01582871563732624,
+                "q3": 0.01603939849883318,
+                "iqr_outliers": 4,
+                "stddev_outliers": 16,
+                "outliers": "16;4",
+                "ld15iqr": 0.015696879476308823,
+                "hd15iqr": 0.016378916800022125,
+                "ops": 62.67941399314599,
+                "total": 1.0210688952356577,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_to_newick_ordered[90000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_to_newick_ordered[90000]",
+            "params": {
+                "sample_size": 90000
+            },
+            "param": "90000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.018011420965194702,
+                "max": 0.019541513174772263,
+                "mean": 0.018568240671551654,
+                "stddev": 0.0003474223229347443,
+                "rounds": 56,
+                "median": 0.01846992503851652,
+                "iqr": 0.00029144715517759323,
+                "q1": 0.01838947180658579,
+                "q3": 0.018680918961763382,
+                "iqr_outliers": 6,
+                "stddev_outliers": 17,
+                "outliers": "17;6",
+                "ld15iqr": 0.018011420965194702,
+                "hd15iqr": 0.019167399033904076,
+                "ops": 53.855398456359794,
+                "total": 1.0398214776068926,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_to_newick_ordered[100000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_to_newick_ordered[100000]",
+            "params": {
+                "sample_size": 100000
+            },
+            "param": "100000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.01999996416270733,
+                "max": 0.021080095320940018,
+                "mean": 0.020545564153615165,
+                "stddev": 0.00028905614136196477,
+                "rounds": 51,
+                "median": 0.02052624337375164,
+                "iqr": 0.00044664274901151657,
+                "q1": 0.020334897097200155,
+                "q3": 0.020781539846211672,
+                "iqr_outliers": 0,
+                "stddev_outliers": 20,
+                "outliers": "20;0",
+                "ld15iqr": 0.01999996416270733,
+                "hd15iqr": 0.021080095320940018,
+                "ops": 48.67230670928262,
+                "total": 1.0478237718343735,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_to_newick[10000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_to_newick[10000]",
+            "params": {
+                "sample_size": 10000
+            },
+            "param": "10000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.003054887056350708,
+                "max": 0.0032755397260189056,
+                "mean": 0.0030687588408137814,
+                "stddev": 1.2880353276801842e-05,
+                "rounds": 330,
+                "median": 0.0030675632879137993,
+                "iqr": 7.554888725280762e-06,
+                "q1": 0.0030640754848718643,
+                "q3": 0.003071630373597145,
+                "iqr_outliers": 5,
+                "stddev_outliers": 8,
+                "outliers": "8;5",
+                "ld15iqr": 0.003054887056350708,
+                "hd15iqr": 0.0030864309519529343,
+                "ops": 325.8646416591072,
+                "total": 1.0126904174685478,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_to_newick[20000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_to_newick[20000]",
+            "params": {
+                "sample_size": 20000
+            },
+            "param": "20000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.006587294861674309,
+                "max": 0.007116353139281273,
+                "mean": 0.006651835344535739,
+                "stddev": 8.974395183525613e-05,
+                "rounds": 152,
+                "median": 0.006622964516282082,
+                "iqr": 1.4126300811767578e-05,
+                "q1": 0.0066169193014502525,
+                "q3": 0.00663104560226202,
+                "iqr_outliers": 21,
+                "stddev_outliers": 17,
+                "outliers": "17;21",
+                "ld15iqr": 0.006604840978980064,
+                "hd15iqr": 0.006730768829584122,
+                "ops": 150.33444879561947,
+                "total": 1.0110789723694324,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_to_newick[30000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_to_newick[30000]",
+            "params": {
+                "sample_size": 30000
+            },
+            "param": "30000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.010192271322011948,
+                "max": 0.010295508429408073,
+                "mean": 0.010234616678019967,
+                "stddev": 1.9348716956924512e-05,
+                "rounds": 99,
+                "median": 0.010230593383312225,
+                "iqr": 2.358434721827507e-05,
+                "q1": 0.010221305303275585,
+                "q3": 0.01024488965049386,
+                "iqr_outliers": 2,
+                "stddev_outliers": 29,
+                "outliers": "29;2",
+                "ld15iqr": 0.010192271322011948,
+                "hd15iqr": 0.010281942784786224,
+                "ops": 97.70761636316254,
+                "total": 1.0132270511239767,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_to_newick[40000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_to_newick[40000]",
+            "params": {
+                "sample_size": 40000
+            },
+            "param": "40000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.013970877975225449,
+                "max": 0.014839822426438332,
+                "mean": 0.014087578773291575,
+                "stddev": 0.00019041968386252606,
+                "rounds": 72,
+                "median": 0.01402994990348816,
+                "iqr": 2.6388093829154968e-05,
+                "q1": 0.01401481032371521,
+                "q3": 0.014041198417544365,
+                "iqr_outliers": 9,
+                "stddev_outliers": 7,
+                "outliers": "7;9",
+                "ld15iqr": 0.01397622749209404,
+                "hd15iqr": 0.014256000518798828,
+                "ops": 70.98451878018136,
+                "total": 1.0143056716769934,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_to_newick[50000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_to_newick[50000]",
+            "params": {
+                "sample_size": 50000
+            },
+            "param": "50000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.017777487635612488,
+                "max": 0.017955265939235687,
+                "mean": 0.017867508850861014,
+                "stddev": 3.503003458602008e-05,
+                "rounds": 57,
+                "median": 0.01786651648581028,
+                "iqr": 5.011493340134621e-05,
+                "q1": 0.017845519352704287,
+                "q3": 0.017895634286105633,
+                "iqr_outliers": 0,
+                "stddev_outliers": 17,
+                "outliers": "17;0",
+                "ld15iqr": 0.017777487635612488,
+                "hd15iqr": 0.017955265939235687,
+                "ops": 55.96751110336297,
+                "total": 1.0184480044990778,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_to_newick[60000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_to_newick[60000]",
+            "params": {
+                "sample_size": 60000
+            },
+            "param": "60000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.02267681248486042,
+                "max": 0.023241126909852028,
+                "mean": 0.022969403134828262,
+                "stddev": 0.0001312265070899292,
+                "rounds": 44,
+                "median": 0.02297502476722002,
+                "iqr": 0.0002027144655585289,
+                "q1": 0.022872386500239372,
+                "q3": 0.0230751009657979,
+                "iqr_outliers": 0,
+                "stddev_outliers": 13,
+                "outliers": "13;0",
+                "ld15iqr": 0.02267681248486042,
+                "hd15iqr": 0.023241126909852028,
+                "ops": 43.53617697987592,
+                "total": 1.0106537379324436,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_to_newick[70000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_to_newick[70000]",
+            "params": {
+                "sample_size": 70000
+            },
+            "param": "70000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.026885036379098892,
+                "max": 0.029460344463586807,
+                "mean": 0.02739791665226221,
+                "stddev": 0.0006106860241456946,
+                "rounds": 38,
+                "median": 0.02719615213572979,
+                "iqr": 0.0004089381545782089,
+                "q1": 0.027024339884519577,
+                "q3": 0.027433278039097786,
+                "iqr_outliers": 5,
+                "stddev_outliers": 5,
+                "outliers": "5;5",
+                "ld15iqr": 0.026885036379098892,
+                "hd15iqr": 0.028333410620689392,
+                "ops": 36.49912556097331,
+                "total": 1.041120832785964,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_to_newick[80000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_to_newick[80000]",
+            "params": {
+                "sample_size": 80000
+            },
+            "param": "80000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.031381696462631226,
+                "max": 0.03254862688481808,
+                "mean": 0.031936460989527404,
+                "stddev": 0.00027086113545856066,
+                "rounds": 32,
+                "median": 0.03189084865152836,
+                "iqr": 0.0002007763832807541,
+                "q1": 0.03182241041213274,
+                "q3": 0.032023186795413494,
+                "iqr_outliers": 6,
+                "stddev_outliers": 9,
+                "outliers": "9;6",
+                "ld15iqr": 0.03155943378806114,
+                "hd15iqr": 0.0323957446962595,
+                "ops": 31.31217326578295,
+                "total": 1.021966751664877,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_to_newick[90000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_to_newick[90000]",
+            "params": {
+                "sample_size": 90000
+            },
+            "param": "90000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.03606429882347584,
+                "max": 0.0379280261695385,
+                "mean": 0.036401825823954174,
+                "stddev": 0.0003925517749562525,
+                "rounds": 28,
+                "median": 0.036326128989458084,
+                "iqr": 0.00026156194508075714,
+                "q1": 0.036188569851219654,
+                "q3": 0.03645013179630041,
+                "iqr_outliers": 2,
+                "stddev_outliers": 2,
+                "outliers": "2;2",
+                "ld15iqr": 0.03606429882347584,
+                "hd15iqr": 0.03742625191807747,
+                "ops": 27.47114951970215,
+                "total": 1.0192511230707169,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_to_newick[100000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_to_newick[100000]",
+            "params": {
+                "sample_size": 100000
+            },
+            "param": "100000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.04026925936341286,
+                "max": 0.04248230531811714,
+                "mean": 0.04094279833137989,
+                "stddev": 0.00044380704239396686,
+                "rounds": 25,
+                "median": 0.04093059524893761,
+                "iqr": 0.00041441479697823524,
+                "q1": 0.04067777143791318,
+                "q3": 0.041092186234891415,
+                "iqr_outliers": 1,
+                "stddev_outliers": 5,
+                "outliers": "5;1",
+                "ld15iqr": 0.04026925936341286,
+                "hd15iqr": 0.04248230531811714,
+                "ops": 24.424319801159452,
+                "total": 1.0235699582844973,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_matrix_to_newick[10000]",
+            "fullname": "benchmarks/test_bench.py::test_matrix_to_newick[10000]",
+            "params": {
+                "sample_size": 10000
+            },
+            "param": "10000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.0052016787230968475,
+                "max": 0.005443040281534195,
+                "mean": 0.005233118387778806,
+                "stddev": 2.3227623820981735e-05,
+                "rounds": 193,
+                "median": 0.005230577662587166,
+                "iqr": 1.7867889255285263e-05,
+                "q1": 0.005221957340836525,
+                "q3": 0.00523982523009181,
+                "iqr_outliers": 2,
+                "stddev_outliers": 10,
+                "outliers": "10;2",
+                "ld15iqr": 0.0052016787230968475,
+                "hd15iqr": 0.005406219512224197,
+                "ops": 191.0906510992291,
+                "total": 1.0099918488413095,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_matrix_to_newick[20000]",
+            "fullname": "benchmarks/test_bench.py::test_matrix_to_newick[20000]",
+            "params": {
+                "sample_size": 20000
+            },
+            "param": "20000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.010818643495440483,
+                "max": 0.011458702385425568,
+                "mean": 0.010952019062574191,
+                "stddev": 0.0001486256169872136,
+                "rounds": 93,
+                "median": 0.010899778455495834,
+                "iqr": 5.889032036066055e-05,
+                "q1": 0.010880444198846817,
+                "q3": 0.010939334519207478,
+                "iqr_outliers": 13,
+                "stddev_outliers": 8,
+                "outliers": "8;13",
+                "ld15iqr": 0.010818643495440483,
+                "hd15iqr": 0.01103607565164566,
+                "ops": 91.30736481433382,
+                "total": 1.0185377728193998,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_matrix_to_newick[30000]",
+            "fullname": "benchmarks/test_bench.py::test_matrix_to_newick[30000]",
+            "params": {
+                "sample_size": 30000
+            },
+            "param": "30000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.01676773652434349,
+                "max": 0.01908404380083084,
+                "mean": 0.017391733390589557,
+                "stddev": 0.000573788391813146,
+                "rounds": 60,
+                "median": 0.0171010447666049,
+                "iqr": 0.0008511831983923912,
+                "q1": 0.01694144681096077,
+                "q3": 0.01779263000935316,
+                "iqr_outliers": 1,
+                "stddev_outliers": 17,
+                "outliers": "17;1",
+                "ld15iqr": 0.01676773652434349,
+                "hd15iqr": 0.01908404380083084,
+                "ops": 57.49858151235731,
+                "total": 1.0435040034353733,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_matrix_to_newick[40000]",
+            "fullname": "benchmarks/test_bench.py::test_matrix_to_newick[40000]",
+            "params": {
+                "sample_size": 40000
+            },
+            "param": "40000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.02473309636116028,
+                "max": 0.026138965040445328,
+                "mean": 0.02544176424058472,
+                "stddev": 0.00028060501370745435,
+                "rounds": 41,
+                "median": 0.025480305776000023,
+                "iqr": 0.0002507646568119526,
+                "q1": 0.02531305607408285,
+                "q3": 0.025563820730894804,
+                "iqr_outliers": 5,
+                "stddev_outliers": 10,
+                "outliers": "10;5",
+                "ld15iqr": 0.024941321462392807,
+                "hd15iqr": 0.025996528565883636,
+                "ops": 39.30545030382756,
+                "total": 1.0431123338639736,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_matrix_to_newick[50000]",
+            "fullname": "benchmarks/test_bench.py::test_matrix_to_newick[50000]",
+            "params": {
+                "sample_size": 50000
+            },
+            "param": "50000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.03188253939151764,
+                "max": 0.0358157716691494,
+                "mean": 0.034255330841387474,
+                "stddev": 0.0008577602273006845,
+                "rounds": 31,
+                "median": 0.03432050347328186,
+                "iqr": 0.0006971042603254318,
+                "q1": 0.03405160177499056,
+                "q3": 0.03474870603531599,
+                "iqr_outliers": 4,
+                "stddev_outliers": 7,
+                "outliers": "7;4",
+                "ld15iqr": 0.033016545698046684,
+                "hd15iqr": 0.0358157716691494,
+                "ops": 29.19253661949149,
+                "total": 1.0619152560830116,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_matrix_to_newick[60000]",
+            "fullname": "benchmarks/test_bench.py::test_matrix_to_newick[60000]",
+            "params": {
+                "sample_size": 60000
+            },
+            "param": "60000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.03944919817149639,
+                "max": 0.04079560004174709,
+                "mean": 0.0400277513724107,
+                "stddev": 0.0003870488591742764,
+                "rounds": 26,
+                "median": 0.03985198400914669,
+                "iqr": 0.0006435923278331757,
+                "q1": 0.039775799959897995,
+                "q3": 0.04041939228773117,
+                "iqr_outliers": 0,
+                "stddev_outliers": 10,
+                "outliers": "10;0",
+                "ld15iqr": 0.03944919817149639,
+                "hd15iqr": 0.04079560004174709,
+                "ops": 24.982667417317234,
+                "total": 1.0407215356826782,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_matrix_to_newick[70000]",
+            "fullname": "benchmarks/test_bench.py::test_matrix_to_newick[70000]",
+            "params": {
+                "sample_size": 70000
+            },
+            "param": "70000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.046445731073617935,
+                "max": 0.04929162748157978,
+                "mean": 0.04777055132118138,
+                "stddev": 0.0009497083244654386,
+                "rounds": 22,
+                "median": 0.04781580436974764,
+                "iqr": 0.0017324276268482208,
+                "q1": 0.046840982511639595,
+                "q3": 0.048573410138487816,
+                "iqr_outliers": 0,
+                "stddev_outliers": 8,
+                "outliers": "8;0",
+                "ld15iqr": 0.046445731073617935,
+                "hd15iqr": 0.04929162748157978,
+                "ops": 20.93339876436807,
+                "total": 1.0509521290659904,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_matrix_to_newick[80000]",
+            "fullname": "benchmarks/test_bench.py::test_matrix_to_newick[80000]",
+            "params": {
+                "sample_size": 80000
+            },
+            "param": "80000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.050647711381316185,
+                "max": 0.05789099633693695,
+                "mean": 0.05385344857349992,
+                "stddev": 0.0016568025445010987,
+                "rounds": 20,
+                "median": 0.053775060921907425,
+                "iqr": 0.0011961311101913452,
+                "q1": 0.05307153332978487,
+                "q3": 0.054267664439976215,
+                "iqr_outliers": 3,
+                "stddev_outliers": 5,
+                "outliers": "5;3",
+                "ld15iqr": 0.05138424411416054,
+                "hd15iqr": 0.05671807564795017,
+                "ops": 18.568912975650694,
+                "total": 1.0770689714699984,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_matrix_to_newick[90000]",
+            "fullname": "benchmarks/test_bench.py::test_matrix_to_newick[90000]",
+            "params": {
+                "sample_size": 90000
+            },
+            "param": "90000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.0571734718978405,
+                "max": 0.06477872654795647,
+                "mean": 0.06128236889425251,
+                "stddev": 0.0026115758308481304,
+                "rounds": 18,
+                "median": 0.061430949717760086,
+                "iqr": 0.004639521241188049,
+                "q1": 0.059069180861115456,
+                "q3": 0.0637087021023035,
+                "iqr_outliers": 0,
+                "stddev_outliers": 7,
+                "outliers": "7;0",
+                "ld15iqr": 0.0571734718978405,
+                "hd15iqr": 0.06477872654795647,
+                "ops": 16.317907059460733,
+                "total": 1.1030826400965452,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_matrix_to_newick[100000]",
+            "fullname": "benchmarks/test_bench.py::test_matrix_to_newick[100000]",
+            "params": {
+                "sample_size": 100000
+            },
+            "param": "100000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.07229337655007839,
+                "max": 0.07842344418168068,
+                "mean": 0.07650656159967184,
+                "stddev": 0.0017669882744976598,
+                "rounds": 14,
+                "median": 0.0771294329315424,
+                "iqr": 0.00245513953268528,
+                "q1": 0.07548518665134907,
+                "q3": 0.07794032618403435,
+                "iqr_outliers": 0,
+                "stddev_outliers": 4,
+                "outliers": "4;0",
+                "ld15iqr": 0.07229337655007839,
+                "hd15iqr": 0.07842344418168068,
+                "ops": 13.070774311262333,
+                "total": 1.0710918623954058,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_from_newick[10000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_from_newick[10000]",
+            "params": {
+                "sample_size": 10000
+            },
+            "param": "10000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.001493731513619423,
+                "max": 0.0017023570835590363,
+                "mean": 0.0015117859184477847,
+                "stddev": 2.0360540633367692e-05,
+                "rounds": 677,
+                "median": 0.0015086662024259567,
+                "iqr": 5.103647708892822e-06,
+                "q1": 0.001506269909441471,
+                "q3": 0.001511373557150364,
+                "iqr_outliers": 26,
+                "stddev_outliers": 22,
+                "outliers": "22;26",
+                "ld15iqr": 0.001499120146036148,
+                "hd15iqr": 0.0015270635485649109,
+                "ops": 661.4693177105015,
+                "total": 1.0234790667891502,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_from_newick[20000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_from_newick[20000]",
+            "params": {
+                "sample_size": 20000
+            },
+            "param": "20000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.0020781029015779495,
+                "max": 0.002296607941389084,
+                "mean": 0.0020900546214314268,
+                "stddev": 1.6743374890617836e-05,
+                "rounds": 488,
+                "median": 0.0020882347598671913,
+                "iqr": 6.617046892642975e-06,
+                "q1": 0.0020849304273724556,
+                "q3": 0.0020915474742650986,
+                "iqr_outliers": 10,
+                "stddev_outliers": 9,
+                "outliers": "9;10",
+                "ld15iqr": 0.0020781029015779495,
+                "hd15iqr": 0.0021034907549619675,
+                "ops": 478.45639522814224,
+                "total": 1.0199466552585363,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_from_newick[30000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_from_newick[30000]",
+            "params": {
+                "sample_size": 30000
+            },
+            "param": "30000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.0027531441301107407,
+                "max": 0.0029679033905267715,
+                "mean": 0.0027866164058610635,
+                "stddev": 3.350528086221921e-05,
+                "rounds": 364,
+                "median": 0.0027794651687145233,
+                "iqr": 8.599832653999329e-06,
+                "q1": 0.0027753692120313644,
+                "q3": 0.0027839690446853638,
+                "iqr_outliers": 34,
+                "stddev_outliers": 21,
+                "outliers": "21;34",
+                "ld15iqr": 0.0027630534023046494,
+                "hd15iqr": 0.0027974601835012436,
+                "ops": 358.8581470692233,
+                "total": 1.014328371733427,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_from_newick[40000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_from_newick[40000]",
+            "params": {
+                "sample_size": 40000
+            },
+            "param": "40000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.0034397300332784653,
+                "max": 0.003647133708000183,
+                "mean": 0.0034596053313235846,
+                "stddev": 2.1463556466408442e-05,
+                "rounds": 294,
+                "median": 0.0034574689343571663,
+                "iqr": 6.42240047454834e-06,
+                "q1": 0.0034537483006715775,
+                "q3": 0.003460170701146126,
+                "iqr_outliers": 15,
+                "stddev_outliers": 6,
+                "outliers": "6;15",
+                "ld15iqr": 0.003444388508796692,
+                "hd15iqr": 0.0034702271223068237,
+                "ops": 289.0503118797708,
+                "total": 1.017123967409134,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_from_newick[50000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_from_newick[50000]",
+            "params": {
+                "sample_size": 50000
+            },
+            "param": "50000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.0038908179849386215,
+                "max": 0.004117999225854874,
+                "mean": 0.003913468125370122,
+                "stddev": 1.4472731015974744e-05,
+                "rounds": 258,
+                "median": 0.0039121899753808975,
+                "iqr": 7.914379239082336e-06,
+                "q1": 0.0039085932075977325,
+                "q3": 0.003916507586836815,
+                "iqr_outliers": 8,
+                "stddev_outliers": 9,
+                "outliers": "9;8",
+                "ld15iqr": 0.003898104652762413,
+                "hd15iqr": 0.003929112106561661,
+                "ops": 255.52782543882955,
+                "total": 1.0096747763454914,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_from_newick[60000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_from_newick[60000]",
+            "params": {
+                "sample_size": 60000
+            },
+            "param": "60000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.004612743854522705,
+                "max": 0.004993364214897156,
+                "mean": 0.004653835403067725,
+                "stddev": 5.484703765843214e-05,
+                "rounds": 217,
+                "median": 0.004640817642211914,
+                "iqr": 8.678529411554337e-06,
+                "q1": 0.004636366851627827,
+                "q3": 0.004645045381039381,
+                "iqr_outliers": 26,
+                "stddev_outliers": 14,
+                "outliers": "14;26",
+                "ld15iqr": 0.004623593762516975,
+                "hd15iqr": 0.004658101126551628,
+                "ops": 214.87652944081734,
+                "total": 1.0098822824656963,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_from_newick[70000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_from_newick[70000]",
+            "params": {
+                "sample_size": 70000
+            },
+            "param": "70000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.00566219724714756,
+                "max": 0.005843242630362511,
+                "mean": 0.005689588770017785,
+                "stddev": 2.070050809742701e-05,
+                "rounds": 177,
+                "median": 0.005686996504664421,
+                "iqr": 9.539537131786346e-06,
+                "q1": 0.00568276597186923,
+                "q3": 0.005692305509001017,
+                "iqr_outliers": 6,
+                "stddev_outliers": 6,
+                "outliers": "6;6",
+                "ld15iqr": 0.0056702811270952225,
+                "hd15iqr": 0.005723003298044205,
+                "ops": 175.7596269996986,
+                "total": 1.007057212293148,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_from_newick[80000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_from_newick[80000]",
+            "params": {
+                "sample_size": 80000
+            },
+            "param": "80000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.006355114281177521,
+                "max": 0.006684904918074608,
+                "mean": 0.006397566510529458,
+                "stddev": 6.583201195306196e-05,
+                "rounds": 158,
+                "median": 0.006379380822181702,
+                "iqr": 1.1242926120758057e-05,
+                "q1": 0.006374182179570198,
+                "q3": 0.006385425105690956,
+                "iqr_outliers": 18,
+                "stddev_outliers": 14,
+                "outliers": "14;18",
+                "ld15iqr": 0.0063593946397304535,
+                "hd15iqr": 0.006404459476470947,
+                "ops": 156.3094339627648,
+                "total": 1.0108155086636543,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_from_newick[90000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_from_newick[90000]",
+            "params": {
+                "sample_size": 90000
+            },
+            "param": "90000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.006760504096746445,
+                "max": 0.00699981115758419,
+                "mean": 0.006786567115823165,
+                "stddev": 2.3874895733144713e-05,
+                "rounds": 151,
+                "median": 0.006782056763768196,
+                "iqr": 2.1604355424642563e-05,
+                "q1": 0.006774662993848324,
+                "q3": 0.006796267349272966,
+                "iqr_outliers": 3,
+                "stddev_outliers": 5,
+                "outliers": "5;3",
+                "ld15iqr": 0.006760504096746445,
+                "hd15iqr": 0.006831051781773567,
+                "ops": 147.34990208355242,
+                "total": 1.0247716344892979,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_vector_from_newick[100000]",
+            "fullname": "benchmarks/test_bench.py::test_vector_from_newick[100000]",
+            "params": {
+                "sample_size": 100000
+            },
+            "param": "100000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.0076849739998579025,
+                "max": 0.00795004889369011,
+                "mean": 0.0077243614088715485,
+                "stddev": 3.0735442690424855e-05,
+                "rounds": 131,
+                "median": 0.0077202897518873215,
+                "iqr": 9.757466614246368e-06,
+                "q1": 0.007715430576354265,
+                "q3": 0.007725188042968512,
+                "iqr_outliers": 9,
+                "stddev_outliers": 4,
+                "outliers": "4;9",
+                "ld15iqr": 0.007701316848397255,
+                "hd15iqr": 0.007741482928395271,
+                "ops": 129.46054011034292,
+                "total": 1.011891344562173,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_matrix_from_newick[10000]",
+            "fullname": "benchmarks/test_bench.py::test_matrix_from_newick[10000]",
+            "params": {
+                "sample_size": 10000
+            },
+            "param": "10000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.002155689522624016,
+                "max": 0.0023715104907751083,
+                "mean": 0.002188054150810429,
+                "stddev": 3.456590108519086e-05,
+                "rounds": 459,
+                "median": 0.0021765287965536118,
+                "iqr": 1.963973045349121e-05,
+                "q1": 0.0021727923303842545,
+                "q3": 0.0021924320608377457,
+                "iqr_outliers": 29,
+                "stddev_outliers": 29,
+                "outliers": "29;29",
+                "ld15iqr": 0.002155689522624016,
+                "hd15iqr": 0.002231001853942871,
+                "ops": 457.0270802619817,
+                "total": 1.0043168552219868,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_matrix_from_newick[20000]",
+            "fullname": "benchmarks/test_bench.py::test_matrix_from_newick[20000]",
+            "params": {
+                "sample_size": 20000
+            },
+            "param": "20000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.003511641174554825,
+                "max": 0.0035756193101406097,
+                "mean": 0.003543664804763264,
+                "stddev": 1.5531280837674843e-05,
+                "rounds": 288,
+                "median": 0.003548618406057358,
+                "iqr": 2.8106383979320526e-05,
+                "q1": 0.0035292552784085274,
+                "q3": 0.003557361662387848,
+                "iqr_outliers": 0,
+                "stddev_outliers": 113,
+                "outliers": "113;0",
+                "ld15iqr": 0.003511641174554825,
+                "hd15iqr": 0.0035756193101406097,
+                "ops": 282.1937330686121,
+                "total": 1.02057546377182,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_matrix_from_newick[30000]",
+            "fullname": "benchmarks/test_bench.py::test_matrix_from_newick[30000]",
+            "params": {
+                "sample_size": 30000
+            },
+            "param": "30000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.0048791151493787766,
+                "max": 0.0052733272314071655,
+                "mean": 0.0049277666811514825,
+                "stddev": 6.542227822629867e-05,
+                "rounds": 206,
+                "median": 0.004908234812319279,
+                "iqr": 2.1962448954582214e-05,
+                "q1": 0.004901260137557983,
+                "q3": 0.004923222586512566,
+                "iqr_outliers": 21,
+                "stddev_outliers": 13,
+                "outliers": "13;21",
+                "ld15iqr": 0.0048791151493787766,
+                "hd15iqr": 0.004957867786288261,
+                "ops": 202.93168583345502,
+                "total": 1.0151199363172054,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_matrix_from_newick[40000]",
+            "fullname": "benchmarks/test_bench.py::test_matrix_from_newick[40000]",
+            "params": {
+                "sample_size": 40000
+            },
+            "param": "40000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.006597915664315224,
+                "max": 0.006784871220588684,
+                "mean": 0.006629213090299776,
+                "stddev": 1.6166052393610583e-05,
+                "rounds": 152,
+                "median": 0.006627804599702358,
+                "iqr": 1.0263174772262573e-05,
+                "q1": 0.0066230446100234985,
+                "q3": 0.006633307784795761,
+                "iqr_outliers": 10,
+                "stddev_outliers": 17,
+                "outliers": "17;10",
+                "ld15iqr": 0.006608529016375542,
+                "hd15iqr": 0.006649427115917206,
+                "ops": 150.84746656631904,
+                "total": 1.007640389725566,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_matrix_from_newick[50000]",
+            "fullname": "benchmarks/test_bench.py::test_matrix_from_newick[50000]",
+            "params": {
+                "sample_size": 50000
+            },
+            "param": "50000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.0076151322573423386,
+                "max": 0.007882319390773773,
+                "mean": 0.007653442296114835,
+                "stddev": 3.7030963172950654e-05,
+                "rounds": 132,
+                "median": 0.007643904536962509,
+                "iqr": 2.1822750568389893e-05,
+                "q1": 0.007635919377207756,
+                "q3": 0.007657742127776146,
+                "iqr_outliers": 8,
+                "stddev_outliers": 9,
+                "outliers": "9;8",
+                "ld15iqr": 0.0076151322573423386,
+                "hd15iqr": 0.007723437622189522,
+                "ops": 130.66016065837934,
+                "total": 1.0102543830871582,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_matrix_from_newick[60000]",
+            "fullname": "benchmarks/test_bench.py::test_matrix_from_newick[60000]",
+            "params": {
+                "sample_size": 60000
+            },
+            "param": "60000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.00943010114133358,
+                "max": 0.010093584656715393,
+                "mean": 0.009496964039808174,
+                "stddev": 0.00010398299009264094,
+                "rounds": 106,
+                "median": 0.009470301680266857,
+                "iqr": 1.2602657079696655e-05,
+                "q1": 0.009464608505368233,
+                "q3": 0.00947721116244793,
+                "iqr_outliers": 10,
+                "stddev_outliers": 8,
+                "outliers": "8;10",
+                "ld15iqr": 0.009450269863009453,
+                "hd15iqr": 0.009662004187703133,
+                "ops": 105.2968080966008,
+                "total": 1.0066781882196665,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_matrix_from_newick[70000]",
+            "fullname": "benchmarks/test_bench.py::test_matrix_from_newick[70000]",
+            "params": {
+                "sample_size": 70000
+            },
+            "param": "70000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.011231396347284317,
+                "max": 0.011705920100212097,
+                "mean": 0.01127972969164451,
+                "stddev": 5.538642003759819e-05,
+                "rounds": 90,
+                "median": 0.011271028779447079,
+                "iqr": 1.093931496143341e-05,
+                "q1": 0.011265063658356667,
+                "q3": 0.0112760029733181,
+                "iqr_outliers": 7,
+                "stddev_outliers": 3,
+                "outliers": "3;7",
+                "ld15iqr": 0.011254804208874702,
+                "hd15iqr": 0.011292444542050362,
+                "ops": 88.65460674476559,
+                "total": 1.0151756722480059,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_matrix_from_newick[80000]",
+            "fullname": "benchmarks/test_bench.py::test_matrix_from_newick[80000]",
+            "params": {
+                "sample_size": 80000
+            },
+            "param": "80000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.012188628315925598,
+                "max": 0.012397315353155136,
+                "mean": 0.012223259714173984,
+                "stddev": 2.6709534502158094e-05,
+                "rounds": 83,
+                "median": 0.012219976633787155,
+                "iqr": 1.2979377061128616e-05,
+                "q1": 0.012212029658257961,
+                "q3": 0.01222500903531909,
+                "iqr_outliers": 8,
+                "stddev_outliers": 8,
+                "outliers": "8;8",
+                "ld15iqr": 0.012194991111755371,
+                "hd15iqr": 0.012246709316968918,
+                "ops": 81.81123721362223,
+                "total": 1.0145305562764406,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_matrix_from_newick[90000]",
+            "fullname": "benchmarks/test_bench.py::test_matrix_from_newick[90000]",
+            "params": {
+                "sample_size": 90000
+            },
+            "param": "90000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.013742372393608093,
+                "max": 0.01440914161503315,
+                "mean": 0.013866489268329046,
+                "stddev": 0.0001371150047406091,
+                "rounds": 73,
+                "median": 0.013836994767189026,
+                "iqr": 4.708673804998398e-05,
+                "q1": 0.013807815033942461,
+                "q3": 0.013854901771992445,
+                "iqr_outliers": 8,
+                "stddev_outliers": 6,
+                "outliers": "6;8",
+                "ld15iqr": 0.013742372393608093,
+                "hd15iqr": 0.013948744162917137,
+                "ops": 72.11630721007316,
+                "total": 1.0122537165880203,
+                "iterations": 1
+            }
+        },
+        {
+            "group": null,
+            "name": "test_matrix_from_newick[100000]",
+            "fullname": "benchmarks/test_bench.py::test_matrix_from_newick[100000]",
+            "params": {
+                "sample_size": 100000
+            },
+            "param": "100000",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": 100000
+            },
+            "stats": {
+                "min": 0.015042504295706749,
+                "max": 0.015336565673351288,
+                "mean": 0.015114951767583392,
+                "stddev": 3.836072387283431e-05,
+                "rounds": 67,
+                "median": 0.015113871544599533,
+                "iqr": 3.1254254281520844e-05,
+                "q1": 0.015097098890691996,
+                "q3": 0.015128353144973516,
+                "iqr_outliers": 3,
+                "stddev_outliers": 8,
+                "outliers": "8;3",
+                "ld15iqr": 0.015050992369651794,
+                "hd15iqr": 0.015229722484946251,
+                "ops": 66.15965537810526,
+                "total": 1.0127017684280872,
+                "iterations": 1
+            }
+        }
+    ],
+    "datetime": "2025-10-19T14:01:06.222620+00:00",
+    "version": "5.1.0"
+}
