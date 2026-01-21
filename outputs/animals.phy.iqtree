@@ -1,0 +1,127 @@
+IQ-TREE 2.0.7 built Jan 21 2022
+
+Input file name: animals.phy
+Type of analysis: tree reconstruction
+Random seed number: 639106
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 17 sequences with 1998 nucleotide sites
+Number of constant sites: 686 (= 34.3343% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 686 (= 34.3343% of all sites)
+Number of parsimony informative sites: 1009
+Number of distinct site patterns: 1152
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TIM2+F+I+G4
+
+Rate parameter R:
+
+  A-C: 5.6029
+  A-G: 7.6803
+  A-T: 5.6029
+  C-G: 1.0000
+  C-T: 22.7812
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3547
+  pi(C) = 0.2282
+  pi(G) = 0.1919
+  pi(T) = 0.2252
+
+Rate matrix Q:
+
+  A   -0.7485    0.2384    0.2748    0.2352
+  C    0.3705    -1.363   0.03579    0.9565
+  G    0.5079   0.04256   -0.5924   0.04198
+  T    0.3705    0.9695   0.03579    -1.376
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.1537
+Gamma shape alpha: 0.7263
+
+ Category  Relative_rate  Proportion
+  0         0              0.1537
+  1         0.0943         0.2116
+  2         0.4439         0.2116
+  3         1.104          0.2116
+  4         3.084          0.2116
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -21160.7279 (s.e. 336.5160)
+Unconstrained log-likelihood (without tree): -11402.5956
+Number of free parameters (#branches + #model parameters): 39
+Akaike information criterion (AIC) score: 42399.4558
+Corrected Akaike information criterion (AICc) score: 42401.0493
+Bayesian information criterion (BIC) score: 42617.8520
+
+Total tree length (sum of branch lengths): 4.2301
+Sum of internal branch lengths: 1.0040 (23.7358% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'LngfishAu' is drawn at root
+Numbers in parentheses are SH-aLRT support (%)
+
++-------------LngfishAu
+|
+|       +--------------LngfishSA
++-------| (99.9)
+|       +------------LngfishAf
+|
+|      +--------------------Frog
++------| (99.8)
+       |                     +-----------------Turtle
+       |                  +--| (84.4)
+       |                  |  |    +------------------------Crocodile
+       |                  |  +----| (97.1)
+       |                  |       +------------------Bird
+       |               +--| (36.7)
+       |               |  +---------------------------Sphenodon
+       |         +-----| (98.4)
+       |         |     +-------------------------------Lizard
+       +---------| (100)
+                 |                    +--------------Human
+                 |                 +--| (100)
+                 |                 |  |          +----Mouse
+                 |                 |  +----------| (100)
+                 |                 |             +------Rat
+                 |           +-----| (100)
+                 |           |     |  +------Seal
+                 |           |     +--| (100)
+                 |           |        |  +-----Cow
+                 |           |        +--| (100)
+                 |           |           +-------Whale
+                 +-----------| (100)
+                             |  +--------------Platypus
+                             +--| (95.4)
+                                +-----------Opossum
+
+Tree in newick format:
+
+(LngfishAu:0.1709370096,(LngfishSA:0.1884042435,LngfishAf:0.1650545777)99.9:0.1079436798,(Frog:0.2564045841,((((Turtle:0.2218665803,(Crocodile:0.3051401508,Bird:0.2317624521)97.1:0.0648298899)84.4:0.0358452198,Sphenodon:0.3460189665)36.7:0.0199286222,Lizard:0.3879053497)98.4:0.0746262735,(((Human:0.1810966290,(Mouse:0.0604713587,Rat:0.0886607298)100:0.1329758583)100:0.0118296779,(Seal:0.0944133820,(Cow:0.0818629246,Whale:0.1017615473)100:0.0405337616)100:0.0318673814)100:0.0728387813,(Platypus:0.1919984674,Opossum:0.1522875522)95.4:0.0427639848)100:0.1471860508)100:0.1267931845)99.8:0.0940819103);
+
+TIME STAMP
+----------
+
+Date and time: Wed Jan  7 14:31:42 2026
+Total CPU time used: 15.1098 seconds (0h:0m:15s)
+Total wall-clock time used: 1.93608 seconds (0h:0m:1s)
+

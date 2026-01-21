@@ -1,0 +1,116 @@
+IQ-TREE multicore version 2.0.7 for Linux 64-bit built Jan 21 2022
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    didelx02 (AVX2, FMA3, 251 GB RAM)
+Command: iqtree2 -s animals.phy -m TIM2+I+G -alrt 1000 -redo -nt 8 -g animals.constr0
+Seed:    639106 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Jan  7 14:31:40 2026
+Kernel:  AVX+FMA - 8 threads (128 CPU cores detected)
+
+Reading alignment file animals.phy ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 17 sequences with 1998 columns, 1152 distinct patterns
+1009 parsimony-informative, 303 singleton sites, 686 constant sites
+           Gap/Ambiguity  Composition  p-value
+   1  LngfishAu    0.15%    passed      6.20%
+   2  LngfishSA    0.00%    failed      0.62%
+   3  LngfishAf    0.05%    failed      1.60%
+   4  Frog         0.05%    passed     58.01%
+   5  Turtle       0.15%    passed     44.25%
+   6  Sphenodon    0.10%    passed     59.78%
+   7  Lizard       0.90%    passed     38.67%
+   8  Crocodile    0.35%    failed      2.51%
+   9  Bird         0.00%    failed      0.00%
+  10  Human        0.00%    failed      0.85%
+  11  Seal         0.00%    passed     68.93%
+  12  Cow          0.00%    passed     59.11%
+  13  Whale        0.00%    passed     97.83%
+  14  Mouse        0.05%    failed      1.43%
+  15  Rat          0.00%    passed     39.69%
+  16  Platypus     0.00%    failed      3.46%
+  17  Opossum      0.00%    failed      0.01%
+****  TOTAL        0.11%  8 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading constraint tree animals.constr0...
+Creating fast initial parsimony tree by random order stepwise addition...
+0.003 seconds, parsimony score: 4879 (based on 1312 sites)
+
+NOTE: 2 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.482 / LogL: -21169.074
+Init pinv, alpha: 0.038, 1.000 / Estimate: 0.044, 0.533 / LogL: -21166.202
+Init pinv, alpha: 0.076, 1.000 / Estimate: 0.086, 0.592 / LogL: -21163.905
+Init pinv, alpha: 0.114, 1.000 / Estimate: 0.120, 0.654 / LogL: -21162.548
+Init pinv, alpha: 0.153, 1.000 / Estimate: 0.152, 0.724 / LogL: -21161.809
+Init pinv, alpha: 0.191, 1.000 / Estimate: 0.178, 0.791 / LogL: -21161.929
+Init pinv, alpha: 0.229, 1.000 / Estimate: 0.186, 0.811 / LogL: -21162.082
+Init pinv, alpha: 0.267, 1.000 / Estimate: 0.187, 0.816 / LogL: -21162.138
+Init pinv, alpha: 0.305, 1.000 / Estimate: 0.188, 0.817 / LogL: -21162.146
+Init pinv, alpha: 0.343, 1.000 / Estimate: 0.187, 0.814 / LogL: -21162.108
+Optimal pinv,alpha: 0.152, 0.724 / LogL: -21161.809
+
+Parameters optimization took 0.403 sec
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 0.039 second
+Computing log-likelihood of 97 initial trees ... 0.134 seconds
+Current best score: -21161.809
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -21160.773
+Iteration 10 / LogL: -21161.750 / Time: 0h:0m:0s
+Iteration 20 / LogL: -21160.896 / Time: 0h:0m:0s
+Finish initializing candidate tree set (2)
+Current best tree score: -21160.773 / CPU time: 0.377
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -21160.934 / Time: 0h:0m:0s (0h:0m:2s left)
+Iteration 40 / LogL: -21165.910 / Time: 0h:0m:1s (0h:0m:1s left)
+Iteration 50 / LogL: -21160.902 / Time: 0h:0m:1s (0h:0m:1s left)
+Iteration 60 / LogL: -21166.050 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 70 / LogL: -21166.163 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 80 / LogL: -21160.868 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 90 / LogL: -21160.967 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 100 / LogL: -21160.816 / Time: 0h:0m:1s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:1s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -21160.773
+2. Current log-likelihood: -21160.736
+Optimal log-likelihood: -21160.728
+Rate parameters:  A-C: 5.60291  A-G: 7.68033  A-T: 5.60291  C-G: 1.00000  C-T: 22.78118  G-T: 1.00000
+Base frequencies:  A: 0.355  C: 0.228  G: 0.192  T: 0.225
+Proportion of invariable sites: 0.154
+Gamma shape alpha: 0.726
+Parameters optimization took 2 rounds (0.008 sec)
+BEST SCORE FOUND : -21160.728
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+WARNING: Branch where both NNIs violate constraint tree will show 100% SH-aLRT support
+WARNING: Branch where both NNIs violate constraint tree will show 100% SH-aLRT support
+WARNING: Branch where both NNIs violate constraint tree will show 100% SH-aLRT support
+WARNING: Branch where both NNIs violate constraint tree will show 100% SH-aLRT support
+0.036 sec.
+Total tree length: 4.230
+
+Total number of iterations: 102
+CPU time used for tree search: 11.511 sec (0h:0m:11s)
+Wall-clock time used for tree search: 1.475 sec (0h:0m:1s)
+Total CPU time used: 15.110 sec (0h:0m:15s)
+Total wall-clock time used: 1.935 sec (0h:0m:1s)
+
+Analysis results written to: 
+  IQ-TREE report:                animals.phy.iqtree
+  Maximum-likelihood tree:       animals.phy.treefile
+  Screen log file:               animals.phy.log
+
+Date and Time: Wed Jan  7 14:31:42 2026
