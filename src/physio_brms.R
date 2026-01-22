@@ -286,12 +286,12 @@ hypothesis(les_model, "BoxE.coli > 0")
 # for two-sided hypotheses, the value tested against lies outside the 95%-CI.
 # Posterior probabilities of point hypotheses assume equal prior probabilities
 
-# Blend lung tissue 1:1 w/v PBS --2mL
+# Blend lung tissue 1:1 w/v PBS -- 2 mL
 # Plated 90 ul total
 # Starting from 10^-1 dilution to 10^-7 dilution
 # Diluted volume plated after 10^-1 dilution = 0.09 mL
 # 1 CFU in 0.09 mL of 10^-1 dilution = 1 CFU in 0.009 mL of original
-# cfu/mL = 1 / 0.009 = 111.11
+# In cfu/mL: 1 / 0.009 = 111.11 cfu/mL
 # Since lung was blended 1:1 w/v, multiply by 2 to get cfu/g
 # cfu/g = 222.22
 cfu_lod <- 222
